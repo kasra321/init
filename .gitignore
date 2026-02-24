@@ -1,0 +1,20 @@
+# Local - not tracked
+local/
+
+# Inbox - keep folder, ignore contents
+inbox/*
+!inbox/.gitkeep
+
+# Quartz build output
+public/
+.quartz-cache/
+
+# Node
+node_modules/
+
+# Environment
+.venv/
+.env
+
+# OS
+.DS_Store
