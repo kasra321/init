@@ -1,5 +1,6 @@
-# Local - not tracked
-local/
+# Local - keep folder, ignore contents
+local/*
+!local/.gitkeep
 
 # Environment
 .venv/
